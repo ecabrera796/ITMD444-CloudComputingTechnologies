@@ -1,0 +1,1 @@
+aws ec2 run-instances --image-id ami-51537029 --count 1 --instance-type t2.micro --key-name 444-yoga900 --security-groups inclass2018 --protocol tcp --port 4000 --cidr 54.149.230.86 -–user-data file://create-env.sh
